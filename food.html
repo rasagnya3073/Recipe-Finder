@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Fav Dishes</title>
+    <script src="https://kit.fontawesome.com/d6d44758e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="foodstyle.css">
+</head>
+<body>
+
+    <div class = "dish_details">
+        <div class = "dish_details_content active">
+            
+        </div>
+    </div>
+    
+    <div id="home">
+        <div id="main">
+            <h1 class="head1">Hello Foodieess&#128075;</h1>
+            <h1 class="head2">Find your Favourite item and have your savour with it!!</h1>
+            <h1 class="head3">Ready to taste the essencee...?<br>
+                Choose your favourite food item here&#128523;</h1>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="Search an ingredient" id="srch_inp">
+            <button type="submit" onclick="search_btn()" id="srch_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+
+    <div id = "result">
+        <h1 id='not_found'></h1>        
+        <div id= "dish">
+            
+        </div>
+    </div>
+
+<script src="food_res.js"></script>
+</body>
+</html>
